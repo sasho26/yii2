@@ -1,0 +1,209 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+div[id="1"] .status-name {
+    background-color: #4087c8;
+    border: 2px solid #414f91;
+}
+div[id="2"] .status-name {
+    background-color: #c85536;
+
+    border: 2px solid #914930;
+}
+div[id="3"] .status-name {
+    background-color: #e3dc36;
+
+    border: 2px solid #918a2e;
+}
+div[id="4"] .status-name {
+    background-color: #4ce316;
+    border: 2px solid #359111;
+}
+.status-name {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    text-align: center;
+    color: #3e0f63;
+    font-size: 14pt;
+    background-color: #c8c8c8;
+    border-radius: 5px;
+}
+
+.draggable {
+    border: 1px solid #5c1391;
+    padding: 8px;
+    background-color: #3e0f63;
+    color: #fff;
+}
+.draggable a {
+    color: #d2dbff;
+    margin-left: 10px;
+}
+.draggable .num {
+    width: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+    background-color: #817d93;
+
+    border-radius: 5px;
+    text-align: center;
+}
+.table-container {
+    height: 600px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.table-container .table {
+    height: 600px;
+    width: 25%;
+    float: left;
+
+}
+.div-kanban-title {
+    height: 34px;
+    margin-bottom: 15px;
+}
+.div-kanban-title p {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: calc(32% + 3px);
+}
+.btn-add-task {
+    margin-left: 5px
+}
+.div1 {
+    border: 2px solid #3e0f63;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #dbdadf;
+}
+.btn-success {
+    background-color: #805d90;
+    border-color: #8e7490;
+}
+.image-profile {
+    border-radius: 50%;
+}
+/*
+a[title="View"] {
+    margin: 18px;
+}*/
